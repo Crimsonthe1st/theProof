@@ -4,9 +4,9 @@ import React from 'react';
  * DATABASE!
  */
 const tags = [
-   { title: 'Calculus', description: 'Study of continuous change; derivatives and integrals', icon: '.', tag: 'calculus', id: 1 },
-   { title: 'Linear Algebra', description: 'Linear equations, vector spaces, matrices', icon: '.', tag: 'linear', id: 2 },
-   { title: 'Statistics', description: 'Analysis, interpetation, and presentation of data', icon: '.', tag: 'statistics', id: 3 }
+   { title: 'Calculus', description: 'Study of continuous change; derivatives and integrals', icon: './calc.svg', tag: 'calculus', id: 1 },
+   { title: 'Linear Algebra', description: 'Linear equations, vector spaces, matrices', icon: './linear.svg', tag: 'linear', id: 2 },
+   { title: 'Statistics', description: 'Analysis, interpetation, and presentation of data', icon: './stats.svg', tag: 'statistics', id: 3 }
 ]
 
 function Problems() {
