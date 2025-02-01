@@ -24,7 +24,7 @@ function Problems() {
 }
 
 // TODO: add "tags" property not just "tag"
-function ProblemCard({ title, icon, description, tag }) {
+function ProblemCard({ title, icon, description, tag } : {title:any, icon:any, description:any, tag:any}) {
    return (
       <a href={ tag } className="button mx-auto flex max-w items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
          <img className="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-o" src={icon} alt="" />
