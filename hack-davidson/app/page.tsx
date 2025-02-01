@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Problems from "./pages/Problems"
+// import Image from "next/image";
 
 // export default function Home() {
 //   return (
@@ -101,9 +100,8 @@ import Problems from "./pages/Problems"
 //   );
 // }
 
+import Problems from "./Problems"
+
 export default function Home() {
-  return (
-    // <h1>Hello Next.js</h1>
-    <Problems></Problems>
-  )
+  return <Problems></Problems>
 }
